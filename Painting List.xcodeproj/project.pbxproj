@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A6BA78B25A83B4F009840E7 /* Paintings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6BA78A25A83B4F009840E7 /* Paintings.swift */; };
 		6AFEC3C125A81697002985C6 /* Painting_ListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFEC3C025A81697002985C6 /* Painting_ListApp.swift */; };
 		6AFEC3C325A81697002985C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFEC3C225A81697002985C6 /* ContentView.swift */; };
 		6AFEC3C525A81697002985C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AFEC3C425A81697002985C6 /* Assets.xcassets */; };
 		6AFEC3C825A81697002985C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AFEC3C725A81697002985C6 /* Preview Assets.xcassets */; };
+		6AFEC3D825A81980002985C6 /* Christian Angué 2 Impressionism.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFEC3D025A8197F002985C6 /* Christian Angué 2 Impressionism.png */; };
+		6AFEC3D925A81980002985C6 /* Paul Meldahl Oil1 Still Life.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFEC3D125A8197F002985C6 /* Paul Meldahl Oil1 Still Life.png */; };
+		6AFEC3DA25A81980002985C6 /* Christian Angué Impressionism.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFEC3D225A8197F002985C6 /* Christian Angué Impressionism.png */; };
+		6AFEC3DC25A81980002985C6 /* Paul Meldahl Oil2 Still Life.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFEC3D425A8197F002985C6 /* Paul Meldahl Oil2 Still Life.png */; };
+		6AFEC3DE25A81980002985C6 /* Christian Angué 3 Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFEC3D625A81980002985C6 /* Christian Angué 3 Landscape.png */; };
+		6AFEC3DF25A81980002985C6 /* Robert Henri 1 Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFEC3D725A81980002985C6 /* Robert Henri 1 Portrait.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A6BA78A25A83B4F009840E7 /* Paintings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paintings.swift; sourceTree = "<group>"; };
 		6AFEC3BD25A81696002985C6 /* Painting List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Painting List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AFEC3C025A81697002985C6 /* Painting_ListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Painting_ListApp.swift; sourceTree = "<group>"; };
-		6AFEC3C225A81697002985C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6AFEC3C225A81697002985C6 /* ContentView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		6AFEC3C425A81697002985C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AFEC3C725A81697002985C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6AFEC3C925A81697002985C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AFEC3D025A8197F002985C6 /* Christian Angué 2 Impressionism.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Christian Angué 2 Impressionism.png"; sourceTree = "<group>"; };
+		6AFEC3D125A8197F002985C6 /* Paul Meldahl Oil1 Still Life.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Paul Meldahl Oil1 Still Life.png"; sourceTree = "<group>"; };
+		6AFEC3D225A8197F002985C6 /* Christian Angué Impressionism.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Christian Angué Impressionism.png"; sourceTree = "<group>"; };
+		6AFEC3D425A8197F002985C6 /* Paul Meldahl Oil2 Still Life.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Paul Meldahl Oil2 Still Life.png"; sourceTree = "<group>"; };
+		6AFEC3D625A81980002985C6 /* Christian Angué 3 Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Christian Angué 3 Landscape.png"; sourceTree = "<group>"; };
+		6AFEC3D725A81980002985C6 /* Robert Henri 1 Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Robert Henri 1 Portrait.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +68,14 @@
 			children = (
 				6AFEC3C025A81697002985C6 /* Painting_ListApp.swift */,
 				6AFEC3C225A81697002985C6 /* ContentView.swift */,
+				6A6BA78A25A83B4F009840E7 /* Paintings.swift */,
 				6AFEC3C425A81697002985C6 /* Assets.xcassets */,
+				6AFEC3D025A8197F002985C6 /* Christian Angué 2 Impressionism.png */,
+				6AFEC3D625A81980002985C6 /* Christian Angué 3 Landscape.png */,
+				6AFEC3D225A8197F002985C6 /* Christian Angué Impressionism.png */,
+				6AFEC3D125A8197F002985C6 /* Paul Meldahl Oil1 Still Life.png */,
+				6AFEC3D425A8197F002985C6 /* Paul Meldahl Oil2 Still Life.png */,
+				6AFEC3D725A81980002985C6 /* Robert Henri 1 Portrait.png */,
 				6AFEC3C925A81697002985C6 /* Info.plist */,
 				6AFEC3C625A81697002985C6 /* Preview Content */,
 			);
@@ -127,7 +148,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AFEC3C825A81697002985C6 /* Preview Assets.xcassets in Resources */,
+				6AFEC3DE25A81980002985C6 /* Christian Angué 3 Landscape.png in Resources */,
+				6AFEC3DA25A81980002985C6 /* Christian Angué Impressionism.png in Resources */,
 				6AFEC3C525A81697002985C6 /* Assets.xcassets in Resources */,
+				6AFEC3D925A81980002985C6 /* Paul Meldahl Oil1 Still Life.png in Resources */,
+				6AFEC3DC25A81980002985C6 /* Paul Meldahl Oil2 Still Life.png in Resources */,
+				6AFEC3DF25A81980002985C6 /* Robert Henri 1 Portrait.png in Resources */,
+				6AFEC3D825A81980002985C6 /* Christian Angué 2 Impressionism.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AFEC3C325A81697002985C6 /* ContentView.swift in Sources */,
+				6A6BA78B25A83B4F009840E7 /* Paintings.swift in Sources */,
 				6AFEC3C125A81697002985C6 /* Painting_ListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
